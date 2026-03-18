@@ -5,6 +5,8 @@
 #ifndef DA_REVIEWER_H
 #define DA_REVIEWER_H
 
+#include <string>
+
 struct Reviewer {
     int id;
     std::string name;

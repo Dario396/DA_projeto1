@@ -5,10 +5,12 @@
 #ifndef DA_CONTROL_H
 #define DA_CONTROL_H
 
+#include <string>
+
 struct Control {
-    int reviewsPerSubmission;
-    int maxReviewsPerReviewer;
-    int risk;
+    int generateAssignments;
+    int riskAnalysis;
+    std::string outputFilename = "output.csv";
 };
 
 #endif //DA_CONTROL_H
